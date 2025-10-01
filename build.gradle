@@ -10,13 +10,10 @@ repositories {
 }
 
 dependencies {
-    // Para Java 17+ usa esta versión
+
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-    // O si eso no funciona, prueba con la última versión:
-    // compileOnly 'org.projectlombok:lombok:1.18.32'
-    // annotationProcessor 'org.projectlombok:lombok:1.18.32'
 }
 
 test {
